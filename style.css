@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu Condensed", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #1b1b32;
+  color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 100px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #000;
+}
+
+a:hover {
+  color: orangered;
+}
