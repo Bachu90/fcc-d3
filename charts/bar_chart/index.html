@@ -14,9 +14,15 @@
       height: 100vh;
       margin: 0 auto;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       position: relative;
+    }
+
+    #chart h1 {
+      font-family: "Ubuntu Condensed", Arial, Helvetica, sans-serif;
+      font-size: 36px;
     }
 
     .bar:hover {
@@ -40,7 +46,9 @@
 </head>
 
 <body>
-  <div id="chart"></div>
+  <div id="chart">
+    <h1>USA Gross Domestic Product - Bar Chart</h1>
+  </div>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="script.js"></script>
 </body>

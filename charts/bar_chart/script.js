@@ -6,6 +6,8 @@ async function init() {
 
   const container = document.getElementById('chart');
 
+  console.log(response)
+
   let svgWidth = 1024,
     svgHeight = 400,
     xPadding = 40,
